@@ -1,0 +1,159 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    text-align: center;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+body {
+    width: 1220px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+h4 {
+    font-weight: bold;
+    margin-top: 10px;
+} 
+
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: underline;
+}
+/* HEADER SECTION */
+header {
+    height: 69px;
+    width: 1220px;
+    border-bottom: 1px solid seashell;
+    z-index: 5;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.nav {
+    width: 1220px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style: none;
+    padding-right: 10px;
+}
+
+li {
+    padding: 10px;
+}
+
+/* OUR MISSION SECTION */
+#mission {
+    position: relative;
+    top: 69px;
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+    z-index: 4;
+    background-image: url(../images/img-mission-background.jpeg);
+    display: flex;
+    align-items: center;
+}
+
+.missionHeadline {
+    width: 1200px;
+    opacity: 1;
+}
+
+/* TEA OF THE MONTH SECTION */
+#totm {
+    width: 1000px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.totmContainer {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.totmChild {
+    height: 250px;
+    width: 300px;
+    padding: 10px;
+    align-content: space-around;
+}
+
+.totmImage {
+    height: auto;
+    width: 300px;
+}
+
+/* LOCATION SECTION */
+#location {
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 80px;
+    background-image: url(../images/img-locations-background.jpeg);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.locationH2 {
+    background: none;
+    width: 1000px;
+}
+
+.locationContainer {
+    display: flex;
+    align-content: space-between;
+    background: none;
+}
+
+.locationItem {
+    width: 300px;
+    margin: 10px;
+    background: black;
+    opacity: 1;
+}
+
+/* FOOTER SECTION */
+.footer {
+    height: 200px;
+    width: 1220px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.copyright {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 30px;
+}
